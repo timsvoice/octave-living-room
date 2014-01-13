@@ -1,0 +1,1195 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"tt",
+				"tt-c	text-transform: capitalize;"
+			],
+			[
+				"ta",
+				"ta-l	text-align: left;"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"WPC",
+				"WP_CONTENT_URL"
+			],
+			[
+				"WP_c",
+				"WP_CONTENT_DIR"
+			],
+			[
+				"WP",
+				"WP_HOME"
+			],
+			[
+				"fs",
+				"fs-n	font-style: normal;"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"opaci",
+				"opacity	opacity()"
+			],
+			[
+				"o",
+				"opacify	opacify()"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"hsl",
+				"hsla	hsla()"
+			],
+			[
+				"m",
+				"mixin	@mixin"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"vendor",
+				"vendor_profile"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"product_",
+				"product_profile"
+			],
+			[
+				"ma",
+				"main_nav_background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"hea",
+				"header_banner_menu_container"
+			],
+			[
+				"bor",
+				"borderThick"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fron",
+				"frontpage_story"
+			],
+			[
+				"backgru",
+				"background-color"
+			],
+			[
+				"front",
+				"frontpage_story_category"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"color",
+				"colorA"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"colo",
+				"colorC"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"branding_background"
+			],
+			[
+				"brad",
+				"branding_background"
+			],
+			[
+				"icon_",
+				"icon_twitter"
+			],
+			[
+				"icon",
+				"icon_twitter"
+			],
+			[
+				"brand",
+				"branding_background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"colr",
+				"colorA"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"branding",
+				"branding_height"
+			],
+			[
+				"button",
+				"button_color"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"cl",
+				"colorB"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"Open",
+				"OpenSans-light"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wp-content/themes/octavelivingroom/140113_Project Goals_Octave Living Room",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Unix",
+				"name": "#Octave Living Room - Mockup Website"
+			}
+		}
+	],
+	"build_system": "Packages/User/Choose Browser.sublime-build",
+	"command_palette":
+	{
+		"height": 301.0,
+		"selected_items":
+		[
+			[
+				"mou",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: post"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"FindKeyConflicts: All Key Maps to Quick Panel",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"zurb",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"foundation",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"top bar",
+				"Snippet: ZURB Foundation 5 Topbar"
+			],
+			[
+				"top ba",
+				"Snippet: ZURB Foundation 5 Topbar"
+			],
+			[
+				"zurb li",
+				"Snippet: ZURB Foundation 5 Orbit Content Slider"
+			],
+			[
+				"zurb full",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"snippet full",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"SNIP",
+				"Snippet: post"
+			],
+			[
+				"sn oc",
+				"Snippet: octave_image"
+			],
+			[
+				"MOU",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"marke",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"copy as",
+				"File: Copy as Tag style"
+			],
+			[
+				"path",
+				"File: Copy Path From Project"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Update File"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"snipp zurb butt",
+				"Snippet: Zurb Large Button"
+			],
+			[
+				"snipp zurb butto",
+				"Snippet: Zurb Large Button"
+			],
+			[
+				"snipp zurb drop",
+				"Snippet: Zurb Dropdown Button"
+			],
+			[
+				"zurb butto",
+				"Snippet: Zurb Button"
+			],
+			[
+				"zurb bu",
+				"Snippet: Zurb Dropdown Button"
+			],
+			[
+				"snipp zurb",
+				"Snippet: Zurb Side Nav"
+			],
+			[
+				"zurb 2",
+				"Snippet: Zurb 2 Column Layout"
+			],
+			[
+				"snipp foun",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"founda",
+				"Snippet: Zurb Foundation - ul Block Grid - Two up"
+			],
+			[
+				"snip foun",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"snip if",
+				"Snippet: if()"
+			],
+			[
+				"snipp imp",
+				"Snippet: @import"
+			],
+			[
+				"snippet",
+				"Snippet: @import"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snipet",
+				"Snippet: html"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"synta sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"CSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syn",
+				"Set Syntax: Groovy"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Prefixr/readme.creole",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/Octave Living Room.TODO",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/footer.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/header.php",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/community/reports/140103_Retail Newsletter.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/design/140106_Design as an Exercise in Empathy",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/140108_Thinking Inside the Box",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/.gitignore",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/post.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/style.css",
+		"/Users/timsvoice/Desktop/# Agenda",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/ionicons.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/scss/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/.gitignore",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/scss/_settings.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/config.rb",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/sublime-fixes.TODO",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/scss/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/app.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-config.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/config/env/local.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/public/wp-config.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/config/wordpress.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/public/site/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/timothyvoice_wp.sublime-project",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/config/env/local.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/site/.htaccess",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/content/themes/working-web/page.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/content/themes/working-web/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/content/themes/working-web/stylesheets/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/content/themes/working-web/var.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothyvoice_wp/public/content/themes/working-web/functions.php",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/wordpress/wptheme.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/wordpress_project/config/wp-config.php",
+		"/config/wp-config.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/wordpress_project/public/config/wp-config",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/wp-config.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/config/wordpress_workflow",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/config/env/development.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/config/wordpress.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/config/wp-config.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothyvoice_wordpress/wordpress_workflow",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/timothy_voice_wordpress/.git",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/wellness/131218_traveling-technology.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/wellness/131218_Heres-to-good-health.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/scss/app.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131218_Milse.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131218_Tiles-Hill.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/robot.txt",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/.sass-cache/148c993882ab461f3bbfb41e5bba1131751547ca/app.scssc",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/stylesheets/app.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/articles.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/bower_components/foundation/scss/foundation/components/_orbit.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/scss/_settings.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/stylesheets/app.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/bower_components/foundation/scss/foundation/components/_functions.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/.sass-cache/4a84409ce5d3b6dbf14ef3ce3a6dd1c7d33073e7/_buttons.scssc",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/bower_components/foundation/scss/foundation/components/_buttons.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/bower_components/foundation/js/foundation/foundation.orbit.js",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/_overrides.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/maintenance.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131205_issue #2_cenceptual dining.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/furtherreading.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131205_issue #2_retail restaurants.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue #2_destination restaurants.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue#2_community builders.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/link.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/php/etc/php.ini",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/_layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/config.core.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_market restaurants",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_Issue #2-Destination Restaurants.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants.html",
+		"/Volumes/Projects/8888-Octave New York/Research/Image Library/Stone Barns/131121_farmersBarn.png",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue #2-destination restaurants.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/image.sublime-snippet",
+		"/Users/timsvoice/Desktop/index.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Mou.app Markdown/Readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/markdowntest",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/css/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/style.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sublime_commands.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/timothy_voice/buttons.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Git/README.markdown",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/stylesheets/app.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/foundation/scss/foundation/components/_accordion.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/modernizr/test/caniuse_files/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/scss/_settings.scss",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/hello.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/app.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_settings.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_media.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/config/remote_config.inc.php",
+		"/Users/timsvoice/Desktop/config.inc.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.min.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/typography.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_reset.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_states.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/style.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/config",
+			"config",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tagline",
+			"tagline-d",
+			"typ",
+			"20",
+			"20%",
+			"branding-tagline",
+			"branding-tagline-dark",
+			"tagline",
+			"0.65",
+			"0.75",
+			"tagline",
+			"border-top",
+			"banner",
+			"main",
+			"branding",
+			"-\">",
+			"navig",
+			"<li class=\"divider\"></li>",
+			"navigation",
+			"naviga",
+			"UI",
+			"global",
+			"UI",
+			"features",
+			"naviga",
+			"typogr",
+			"content",
+			"brand",
+			"#",
+			"*",
+			"media",
+			"conte",
+			"nav",
+			"top",
+			"ui",
+			"/li",
+			"li>",
+			"small-only",
+			"nav",
+			"media",
+			"typo",
+			"content",
+			"../../assets/fonts",
+			"conten",
+			"p>",
+			"h2",
+			"p>",
+			"p",
+			"h2",
+			"<a href=\"#\"",
+			"<a href=\"#\"><h2>",
+			"feature",
+			"em",
+			"float",
+			"5px",
+			"panel",
+			"feature large-4",
+			"li>",
+			"large-4 columns",
+			"global",
+			"article",
+			"[[~",
+			"large-4",
+			"h2>",
+			"h2",
+			"<a href=\"[[~",
+			"<a href=\"[[~4]]\"",
+			"button ",
+			"one-third column omega",
+			"info",
+			"id",
+			"bower_com",
+			"bower",
+			"=\"js",
+			"?>/",
+			"project",
+			". 'project",
+			"project",
+			"great_green_sources/",
+			"extract(shortcode_atts(array(\n'id' => 1,\n'text' => \"\" // default value if none supplied\n), $atts));\nif ($text) {\n$url = get_permalink($id);\nreturn \"<a href='$url'>$text</a>\";\n} else {\nreturn get_permalink($id);\n}\n}\nadd_shortcode('permalink', 'permalink_thingy');\n\n//usage\n<a href=\"[permalink id=49 text='providing text']\">providing text</a>\n\n/**\n * Creating plugins \n */",
+			"site",
+			"themename",
+			"style",
+			"style/",
+			"style",
+			"timo",
+			"spell",
+			"navi",
+			"issue-post",
+			"body",
+			"issue page",
+			"h7",
+			"issue",
+			"h7",
+			"article",
+			"articl",
+			"featured",
+			"reading",
+			"what",
+			".article",
+			".article h5",
+			".article h5.article-title, .article-category-featured h5.article-title",
+			"current",
+			"articles",
+			"show-for-medium-up",
+			"float",
+			"float: left;",
+			"float:left;",
+			"article",
+			"$topbar-menu-icon-color",
+			"menu",
+			"border",
+			".contain-to-grid",
+			"navig",
+			"current",
+			"h7",
+			"h5",
+			"small-6",
+			"text",
+			"featured",
+			"large-4",
+			"medium-6",
+			"h4",
+			"orbit",
+			"1.3",
+			"p",
+			"h5",
+			"$text-font-family"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&amp;",
+			"&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/octavelivingroom/140113_Project Goals_Octave Living Room",
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "#Octave Living Room - Mockup Website",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"foot",
+				"wp-content/themes/greatgreensources/footer.php"
+			],
+			[
+				"header",
+				"wp-content/themes/greatgreensources/header.php"
+			],
+			[
+				"index",
+				"wp-content/themes/greatgreensources/index.php"
+			],
+			[
+				"scss",
+				"wp-content/themes/greatgreensources/style.css"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"style",
+				"wp-content/themes/greatgreensources/scss/style.scss"
+			],
+			[
+				"styl",
+				"wp-content/themes/greatgreensources/scss/style.scss"
+			],
+			[
+				"button",
+				"living_octave_research/bower_components/foundation/scss/foundation/components/_buttons.scss"
+			],
+			[
+				"app",
+				"scss/app.scss"
+			],
+			[
+				"main",
+				"maintenance.html"
+			],
+			[
+				"config",
+				"config.core.php"
+			],
+			[
+				"destin",
+				"assets/research assets/hospitality/131204_issue #2_destination restaurants.html"
+			],
+			[
+				"commu",
+				"assets/research assets/hospitality/131204_issue#2_community builders.html"
+			],
+			[
+				"retail",
+				"assets/research assets/hospitality/131205_issue #2_retail restaurants.html"
+			],
+			[
+				"comma",
+				"/Applications/mampstack-5.3.17-0/apache2/htdocs/sublime_commands.mdown"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				".css",
+				"stylesheets/app.css"
+			],
+			[
+				"scssscss",
+				"bower_components/foundation/scss/foundation/components/_accordion.scss"
+			],
+			[
+				"scssstyle",
+				"bower_components/modernizr/test/caniuse_files/style.css"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"brandi",
+				"skeleton/stylesheets/sass/_branding.scss"
+			],
+			[
+				"elem",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
+				"ggs",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"two",
+				"great_green_sources.sublime-workspace"
+			],
+			[
+				"<!",
+				"<!DOCTYPE html>"
+			],
+			[
+				"prod",
+				"products.html"
+			],
+			[
+				"page",
+				"skeleton/stylesheets/sass/_page-layout.scss"
+			],
+			[
+				"home",
+				"skeleton/home.html"
+			],
+			[
+				"bas",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"typo",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"base",
+				"skeleton/stylesheets/.sass-cache/fa5552e642f994ac9941b7f77c7bfdf1bb579a96/_base.scssc"
+			],
+			[
+				"hone",
+				"skeleton/stylesheets/sass/bourbon/helpers/_gradient-positions-parser.scss"
+			],
+			[
+				"ty",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"ele",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
+				"typogra",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"hom",
+				"skeleton/home.html"
+			],
+			[
+				"sty",
+				"skeleton/stylesheets/compiled/style.css"
+			],
+			[
+				"logi",
+				"skeleton/login.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}
