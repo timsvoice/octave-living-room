@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"functi",
+				"create_function"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"lst",
+				"list-d	list-style-type: disc;"
+			],
+			[
 				"tt",
-				"tt-u	text-transform: uppercase;"
+				"tt-c	text-transform: capitalize;"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"fs",
+				"fs	font-style: ${italic};"
 			],
 			[
 				"ta",
@@ -14,10 +34,6 @@
 			[
 				"va",
 				"va-m	vertical-align: middle;"
-			],
-			[
-				"di",
-				"d-ib	display: inline-block;"
 			],
 			[
 				"d",
@@ -46,10 +62,6 @@
 			[
 				"WP",
 				"WP_HOME"
-			],
-			[
-				"fs",
-				"fs-n	font-style: normal;"
 			],
 			[
 				"list",
@@ -263,15 +275,7 @@
 			"file": "wp-content/themes/octavelivingroom/scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 4042,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/octavelivingroom/index.php",
-			"settings":
-			{
-				"buffer_size": 2823,
+				"buffer_size": 6222,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,15 +283,18 @@
 			"file": "wp-content/themes/octavelivingroom/header.php",
 			"settings":
 			{
-				"buffer_size": 3076,
+				"buffer_size": 4089,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/octavelivingroom/footer.php",
+			"contents": "<?php\ndefine( 'TEMPPATH', get_bloginfo('stylesheet_directory'));\ndefine( 'IMAGES', TEMPPATH. \"/images\");\n\nadd_theme_support('nav-menus');\nif ( function_exists('register_nav_menus')) {\n		register_nav_menus(\n		array(\n		'main' => 'Main Nav'\n		)\n	);\n}\n\n\n?>\n\n<?php\n\n/*add_action('init', 'class_register');\n \nfunction class_register() {\n	\n	$lables = array(\n		'name' => _x('Class', 'post type general name'),\n		'singular_name' => _x('Class', 'post type singular name'),\n		'add_new' => _x('Add New', 'Class'),\n		'add_new_item' => __('Add New Class'),\n		'edit_item' => __('Edit Class'),\n		'new_item' => __('New Class'),\n		'view_item' => __('View Class'),\n		'search_items' => __('Search Class'),\n		'not_found' =>  __('Nothing found'),\n		'not_found_in_trash' => __('Nothing found in Trash'),\n		'parent_item_colon' => ''\n		);\n\n	$args = array(\n		'labels' => $labels,\n		'public' => true,\n		'publicly_queryable' => true,\n		'show_ui' => true,\n		'query_var' => true,\n		'menu_icon' => get_stylesheet_directory_uri() . '/article16.png',\n		'rewrite' => true,\n		'capability_type' => 'post',\n		'hierarchical' => false,\n		'menu_position' => null,\n		'supports' => array('title','editor','thumbnail')\n	  );\n\n\n	register_post_type( 'class', $args );\n}\n\nadd_action( 'init', 'workshop_register' );\n\nfunction workshop_register() {\n	\n	$lables = array(\n		'name' => _x('Workshop', 'post type general name'),\n		'singular_name' => _x('Workshop', 'post type singular name'),\n		'add_new' => _x('Add New', 'workshop'),\n		'add_new_item' => __('Add New Workshop'),\n		'edit_item' => __('Edit Workshop'),\n		'new_item' => __('New Workshop'),\n		'view_item' => __('View Workshop'),\n		'search_items' => __('Search Workshop'),\n		'not_found' =>  __('Nothing found'),\n		'not_found_in_trash' => __('Nothing found in Trash'),\n		'parent_item_colon' => ''\n		);\n\n	$args = array(\n		'labels' => $labels,\n		'description' => 'Scheduled workshops at the Octave Living Room',\n		'public' => true,\n		'publicly_queryable' => true,\n		'show_ui' => true,\n		'query_var' => true,\n		'menu_icon' => get_stylesheet_directory_uri() . '/article16.png',\n		'rewrite' => true,\n		'capability_type' => 'post',\n		'hierarchical' => false,\n		'menu_position' => null,\n		'supports' => array('title','editor','thumbnail')\n	  );\n\n\n	register_post_type( 'workshop', $args );\n}*/\n\n?>",
+			"file": "wp-content/themes/octavelivingroom/functions.php",
+			"file_size": 2150,
+			"file_write_time": 1389887590000000,
 			"settings":
 			{
-				"buffer_size": 1203,
+				"buffer_size": 2295,
 				"line_ending": "Unix"
 			}
 		}
@@ -295,9 +302,13 @@
 	"build_system": "Packages/User/Choose Browser.sublime-build",
 	"command_palette":
 	{
-		"height": 301.0,
+		"height": 369.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"mou",
 				"Markdown: Open with Mou.app"
@@ -321,10 +332,6 @@
 			[
 				"Snippet: ",
 				"Snippet: post"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"FindKeyConflicts: All Key Maps to Quick Panel",
@@ -588,6 +595,18 @@
 	},
 	"file_history":
 	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/page-classes.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/single-classes.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/single-workshops.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/functions.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/plugins/workshops/workshops.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/page-workshops-menu.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/plugins/classes/classes.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/page-workshops.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/header.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/footer.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/plugins/workshops/images/image.png",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/config.rb",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/config.rb",
@@ -703,19 +722,7 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/README.md",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/index.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/foundation/scss/foundation/components/_accordion.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/modernizr/test/caniuse_files/style.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/scss/_settings.scss",
-		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/hello.sublime-snippet",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/index.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/app.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_style.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_settings.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_media.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/config/remote_config.inc.php",
-		"/Users/timsvoice/Desktop/config.inc.php",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.min.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/README.md"
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/modernizr/test/caniuse_files/style.css"
 	],
 	"find":
 	{
@@ -736,6 +743,53 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"start_da",
+			"lass",
+			"Classes",
+			"classs",
+			"Workshop",
+			"workshop",
+			"Movie Review",
+			"=&gt;",
+			"workshop",
+			"Class",
+			"class",
+			"Item",
+			"Portfolio",
+			"portfolio",
+			"Portfolio",
+			"globa",
+			"p>",
+			"pl",
+			"p",
+			"mns workshop",
+			"mns class",
+			"class",
+			"button",
+			"instr",
+			"content",
+			"instruct",
+			"global",
+			"alpha",
+			"description",
+			"button",
+			"ns workshop\"",
+			"ns class\"",
+			"ns class",
+			"class",
+			"h3",
+			"</h2>",
+			"ns class",
+			"class",
+			"Healthy",
+			"classes",
+			"h1",
+			"<div class=\"button\">details</div>",
+			"85",
+			"$black",
+			"1px",
+			"black",
+			"white",
 			"class",
 			"div",
 			"5",
@@ -816,54 +870,7 @@
 			"h2",
 			"<a href=\"[[~",
 			"<a href=\"[[~4]]\"",
-			"button ",
-			"one-third column omega",
-			"info",
-			"id",
-			"bower_com",
-			"bower",
-			"=\"js",
-			"?>/",
-			"project",
-			". 'project",
-			"project",
-			"great_green_sources/",
-			"extract(shortcode_atts(array(\n'id' => 1,\n'text' => \"\" // default value if none supplied\n), $atts));\nif ($text) {\n$url = get_permalink($id);\nreturn \"<a href='$url'>$text</a>\";\n} else {\nreturn get_permalink($id);\n}\n}\nadd_shortcode('permalink', 'permalink_thingy');\n\n//usage\n<a href=\"[permalink id=49 text='providing text']\">providing text</a>\n\n/**\n * Creating plugins \n */",
-			"site",
-			"themename",
-			"style",
-			"style/",
-			"style",
-			"timo",
-			"spell",
-			"navi",
-			"issue-post",
-			"body",
-			"issue page",
-			"h7",
-			"issue",
-			"h7",
-			"article",
-			"articl",
-			"featured",
-			"reading",
-			"what",
-			".article",
-			".article h5",
-			".article h5.article-title, .article-category-featured h5.article-title",
-			"current",
-			"articles",
-			"show-for-medium-up",
-			"float",
-			"float: left;",
-			"float:left;",
-			"article",
-			"$topbar-menu-icon-color",
-			"menu",
-			"border",
-			".contain-to-grid",
-			"navig",
-			"current"
+			"button "
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -883,7 +890,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -891,15 +898,15 @@
 					"file": "wp-content/themes/octavelivingroom/scss/style.scss",
 					"settings":
 					{
-						"buffer_size": 4042,
+						"buffer_size": 6222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3568,
-								3568
+								3389,
+								3389
 							]
 						],
 						"settings":
@@ -997,25 +1004,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3121.0,
+						"translation.y": 3305.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/octavelivingroom/index.php",
+					"file": "wp-content/themes/octavelivingroom/header.php",
 					"settings":
 					{
-						"buffer_size": 2823,
+						"buffer_size": 4089,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1707,
-								1707
+								3726,
+								3726
 							]
 						],
 						"settings":
@@ -1110,146 +1117,29 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 838.0,
+						"translation.y": 766.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "wp-content/themes/octavelivingroom/header.php",
+					"file": "wp-content/themes/octavelivingroom/functions.php",
 					"settings":
 					{
-						"buffer_size": 3076,
+						"buffer_size": 2295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3070,
-								3070
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 789.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wp-content/themes/octavelivingroom/footer.php",
-					"settings":
-					{
-						"buffer_size": 1203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								998,
-								998
+								234,
+								234
 							]
 						],
 						"settings":
@@ -1344,10 +1234,9 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 475.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1567,7 +1456,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 276.0,
 	"status_bar_visible": true
 }

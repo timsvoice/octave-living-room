@@ -76,13 +76,20 @@
         <nav class="top-bar" data-topbar>
           <ul class="title-area">
             <li class="name">
-              <h1><a href="#">Octave Living Room</a></h1>
+              <h1><a href="<?php echo site_url(); ?>">Octave Living Room</a></h1>
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span></span> </a></li>
           </ul>
+            
+        <?php wp_nav_menu(
+            array(
+                'container'       => 'false',
+                'container_class'    => 'right',
+            )
+        ); ?>
 
-          <section class="top-bar-section">
-          <!-- Right Nav Section -->
+
+          <!-- <section class="top-bar-section">
             <ul class="right">
                 <li class="divider"></li>
                 <li class=""><a href="#">classes</a></li>
@@ -90,6 +97,6 @@
                 <li class=""><a href="#">workshops</a></li>
                 <li class="divider show-for-medium-up"></li>
             </ul>
-        </section>
+        </section> -->
       </nav>    
     </div>

@@ -77,8 +77,8 @@ $dark-gray:hsla(0, 0%, 75%, 1);
 
 // Borders and background
 $dark-border:0.2rem solid $dark-gray;
-$light-border:0.1rem solid $gray;
 $black-border:0.15rem solid $black;
+$light-border:0.1rem solid $gray;
 $thin-border:0.1rem solid $black;
 
 // Typography 
@@ -158,19 +158,9 @@ $light-text:200;
 	background: none;
 }
 
-
 /* ============================ 
-	6 Content
+	4 UI
    ============================ */
-
-.branding-mark {
-	height: 2em;
-	width: 2em;
-}
-
-.time, .date {
-	font-size: 0.85rem;
-}
 
 .calendar-icon {
 	float: left;
@@ -195,6 +185,58 @@ $light-text:200;
 	@extend .calendar-icon;
 	width: auto;
 	padding: 0 0.5rem;
+}
+
+.button {
+	background: $gray;
+	color: $black;
+}
+
+.button.dark {
+	@extend .button;
+	text-align: center;
+	background: $dark-gray;
+	font-weight: $heavy-text;
+	text-transform: uppercase;
+	color: $white;
+}
+
+.button.plain {
+		font-weight: $light-text;
+		text-transform: uppercase;
+}
+
+.filter-programs {
+	border: $light-border;
+	h3 {
+		display: inline-block;
+		font-weight: $medium-text;
+	}
+}
+
+.dropdown-arrow {
+	width: 0; 
+	height: 0;
+	margin-left: 1rem; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid $dark-gray;
+	display: inline-block;
+	float: right;
+	margin-top: 0.5em;
+}
+
+/* ============================ 
+	5 Structure
+   ============================ */
+
+/* ============================ 
+	6 Content
+   ============================ */
+
+.branding-mark {
+	height: 2em;
+	width: 2em;
 }
 
 .classes, .workshops {
@@ -258,10 +300,6 @@ $light-text:200;
 	}
 }
 
-.class-title, .workshop-title {
-	margin: 4rem 0 2rem;
-}
-
 .class-details, .workshop-details {
 	background: $gray;
 	padding-top: 1rem;
@@ -269,17 +307,6 @@ $light-text:200;
 		font-weight: $heavy-text;
 		font-size: 1.5rem;
 	}
-}
-
-.workshop-takeaways {
-	h3 {
-		font-weight: $medium-text;
-		text-transform: capitalize;
-	}
-	li {
-		list-style-type: disc;
-	}
-	
 }
 
 .instructor {
@@ -305,26 +332,6 @@ $light-text:200;
 	}
 }
 
-.filter-programs {
-	border: $light-border;
-	h3 {
-		display: inline-block;
-		font-weight: $medium-text;
-	}
-}
-
-.dropdown-arrow {
-	width: 0; 
-	height: 0;
-	margin-left: 1rem; 
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
-	border-top: 7px solid $dark-gray;
-	display: inline-block;
-	float: right;
-	margin-top: 0.5em;
-}
-
 .accordion a {
 	text-align: center;
 	text-transform: uppercase;
@@ -333,6 +340,10 @@ $light-text:200;
 /* ============================ 
 	7 Typography
    ============================ */
+
+.time, .date {
+	font-size: 0.85rem;
+}
 
 p.date {
 	margin-bottom: 0;
@@ -354,24 +365,20 @@ p.workshop-duration {
 	}
 }
 
-.button {
-	background: $gray;
-	color: $black;
-}
-
-.button.dark {
-	@extend .button;
-	text-align: center;
-	background: $dark-gray;
-	font-weight: $heavy-text;
-	text-transform: uppercase;
-	color: $white;
-}
-
-.button.plain {
-		font-weight: $light-text;
-		text-transform: uppercase;
+.workshop-takeaways {
+	h3 {
+		font-weight: $medium-text;
+		text-transform: capitalize;
 	}
+	li {
+		list-style-type: disc;
+	}
+	
+}
+
+.class-title, .workshop-title {
+	margin: 4rem 0 2rem;
+}
 
 /* ============================ 
 	8 Media Queries

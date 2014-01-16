@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="small-12 columns class">
 				<div class="class-title">
-					<h2>Smart Yoga</h2>
+					<h2><?php the_title(); ?></h2>
 					<h3>class</h3>
 				</div>
 			</div>
@@ -12,30 +12,46 @@
 		<div class="row">
 			<div class="small-12 columns class-details">
 				<div class="calendar-icon">
-					<p>12</p>
+					<p>
+						<?php 
+
+						$date = DateTime::createFromFormat('Ymd', get_field('class_date'));
+						echo $date->format('d');
+
+						?>
+					</p>
 				</div>
-				<p class="date">February 12th</p>
-				<p class="time">7pm-8:30pm</p>
-				<p class="price">$350</p>
+				
+				<p class="date">
+					<?php 
+
+					$date = DateTime::createFromFormat('Ymd', get_field('class_date'));
+					echo $date->format('l, d F');
+
+					?>				
+				</p>
+
+				<p class="time"><?php the_field('meeting_time');?></p>
+				<p class="price"><?php echo '¥', the_field('price');?></p>
 				<div class="small-6 small-centered columns button dark">sign up</div>
 			</div>
 			
 			<div class="small-12 columns class-description">
 				<p>
-					Smart Yoga is a a therapeutic system which views yoga practice as a healing modality, capable of healing the body and the mind. We will become more in tune with our bodies through focusing on breathing, correct and safe asana (poses), and the true meaning of yoga which is far deeper than working the physical body. We work towards a balance of concentrated energy and relaxation for our minds, bodies, and souls.
+					<?php the_field('class_description');?>
 				</p>
 			</div>
 
 			<div class="small-12 columns instructor">
 				<h2>your instructor</h2>
-				<img src="<?php bloginfo('template_url'); ?>/css/assets/yoga-instructor.jpg" alt="" class="small-4 columns alpha instructor-image" />
+				<img src="<?php the_field('instructor_image');?>" alt="" class="small-4 columns alpha instructor-image" />
 				<div class="instructor-name">	
-					<h4>Mary Higgins</h4>
-					<p>Advanced yoga instructor</p>
+					<h4><a href="<?php echo 'http://', the_field('instructor_website');?>"><?php the_field('instructor_name');?></a></h4>
+					<p><?php the_field('instructor_title');?></p>
 				</div>
 				<div class="instructor-bio">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, molestias, dignissimos. Architecto, repellendus explicabo doloremque delectus corrupti accusamus quaerat voluptatibus.
+						<?php the_field('instructor_bio');?>
 					</p>
 				</div>
 			</div>
