@@ -36,7 +36,7 @@ function create_workshop() {
             'public' => true,
             'menu_position' => 5,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
-            'taxonomies' => array( 'category' ),
+            'taxonomies' => array( 'workshop_category' ),
             'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
             'has_archive' => true
         )

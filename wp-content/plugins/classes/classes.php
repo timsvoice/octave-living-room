@@ -15,7 +15,7 @@ License: GPLv2
 add_action( 'init', 'create_class' );
 
 function create_class() {
-    register_post_type( 'Classes',
+    register_post_type( 'classes',
         array(
             'labels' => array(
                 'name' => 'Classes',
@@ -36,7 +36,7 @@ function create_class() {
             'public' => true,
             'menu_position' => 4,
             'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
-            'taxonomies' => array( 'category' ),
+            'taxonomies' => array( 'class_category' ),
             'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
             'has_archive' => true
         )

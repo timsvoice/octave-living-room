@@ -5,6 +5,7 @@
 				<div class="workshop-title">
 					<h2><?php the_title() ?></h2>
 					<h3>workshop</h3>
+					<p class="workshop-duration"><?php the_field('workshop_duration');?></p>
 				</div>
 			</div>
 		</div>
@@ -42,7 +43,7 @@
 					<?php the_field('workshop_description');?> 
 				</p>
 				<div class="workshop-takeaways">
-					<h3>takeaways</h3>
+					<h2>takeaways</h2>
 					<p><?php the_field('takeaways');?></p>
 				</div>
 			</div>

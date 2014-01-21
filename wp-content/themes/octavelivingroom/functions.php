@@ -16,6 +16,52 @@ if ( function_exists('register_nav_menus')) {
 
 <?php
 
+//Custom Class Categories
+function my_taxonomies_class() {
+	$labels = array(
+		'name'              => _x( 'Class Categories', 'taxonomy general name' ),
+		'singular_name'     => _x( 'Class Category', 'taxonomy singular name' ),
+		'search_items'      => __( 'Search Class Categories' ),
+		'all_items'         => __( 'All Class Categories' ),
+		'parent_item'       => __( 'Parent Class Category' ),
+		'parent_item_colon' => __( 'Parent Class Category:' ),
+		'edit_item'         => __( 'Edit Class Category' ), 
+		'update_item'       => __( 'Update Class Category' ),
+		'add_new_item'      => __( 'Add New Class Category' ),
+		'new_item_name'     => __( 'New Class Category' ),
+		'menu_name'         => __( 'Class Categories' ),
+	);
+	$args = array(
+		'labels' => $labels,
+		'hierarchical' => true,
+	);
+	register_taxonomy( 'class_category', 'class', $args );
+}
+add_action( 'init', 'my_taxonomies_class', 0 );
+
+//Custom Workshop Categories
+function my_taxonomies_workshop() {
+	$labels = array(
+		'name'              => _x( 'Workshop Categories', 'taxonomy general name' ),
+		'singular_name'     => _x( 'Workshop Category', 'taxonomy singular name' ),
+		'search_items'      => __( 'Search Workshop Categories' ),
+		'all_items'         => __( 'All Workshop Categories' ),
+		'parent_item'       => __( 'Parent Workshop Category' ),
+		'parent_item_colon' => __( 'Parent Workshop Category:' ),
+		'edit_item'         => __( 'Edit Workshop Category' ), 
+		'update_item'       => __( 'Update Workshop Category' ),
+		'add_new_item'      => __( 'Add New Workshop Category' ),
+		'new_item_name'     => __( 'New Workshop Category' ),
+		'menu_name'         => __( 'Workshop Categories' ),
+	);
+	$args = array(
+		'labels' => $labels,
+		'hierarchical' => true,
+	);
+	register_taxonomy( 'workshop_category', 'workshop', $args );
+}
+add_action( 'init', 'my_taxonomies_workshop', 0 );
+
 /*add_action('init', 'class_register');
  
 function class_register() {
@@ -88,5 +134,29 @@ function workshop_register() {
 
 	register_post_type( 'workshop', $args );
 }*/
+
+add_filter('uwpqsf_result_tempt', 'customize_output', '', 4);
+function customize_output($results , $arg, $id, $getdata ){
+	 // The Query
+            $apiclass = new uwpqsfprocess();
+             $query = new WP_Query( $arg );
+		ob_start();	$result = '';
+			// The Loop
+
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+				$query->the_post();
+                                echo  '<li>'.get_permalink().'</li>';
+			}
+                        echo  $apiclass->ajax_pagination($arg['paged'],$query->max_num_pages, 4, $id);
+		 } else {
+					 echo  'no post found';
+				}
+				/* Restore original Post Data */
+				wp_reset_postdata();
+
+		$results = ob_get_clean();		
+			return $results;
+}
 
 ?>

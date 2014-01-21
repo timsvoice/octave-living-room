@@ -13,107 +13,123 @@ Template Name: Workshops Menu
 			<p>Octave offers several long format workshops to help deepen and inform your practice</p>
 		</div>
 	</div>
+	
+	<div class="show-for-medium-up workshop-paths">
+
+		<?php
+		$the_query = new WP_Query( 'page_id=69' );
+		while ( $the_query->have_posts() ) :
+			$the_query->the_post();?>
+		        <div class="row">
+					<div class="small-12 columns workshop">
+				        <h3><a href="<?php the_permalink() ?>"><?php the_title() ?><span class="workshop-subtitle"> - <?php the_field('byline') ?></span></a></h3>
+				        <?php the_content(); ?>
+				    </div>
+				</div>
+		<?php 
+		endwhile;
+		wp_reset_postdata();
+		?>
+
+		<?php
+		$the_query = new WP_Query( 'page_id=74' );
+		while ( $the_query->have_posts() ) :
+			$the_query->the_post();?>
+		        <div class="row">
+					<div class="small-12 columns workshop">
+				        <h3><a href="<?php the_permalink() ?>"><?php the_title() ?><span class="workshop-subtitle"> - <?php the_field('byline') ?></span></a></h3>
+				        <?php the_content(); ?>
+				    </div>
+				</div>
+		<?php 
+		endwhile;
+		wp_reset_postdata();
+		?>
+
+		<?php
+		$the_query = new WP_Query( 'page_id=76' );
+		while ( $the_query->have_posts() ) :
+			$the_query->the_post();?>
+		        <div class="row">
+					<div class="small-12 columns workshop">
+				        <h3><a href="<?php the_permalink() ?>"><?php the_title() ?><span class="workshop-subtitle"> - <?php the_field('byline') ?></span></a></h3>
+				        <?php the_content(); ?>
+				    </div>
+				</div>
+		<?php 
+		endwhile;
+		wp_reset_postdata();
+		?>
+
+		<?php
+		$the_query = new WP_Query( 'page_id=78' );
+		while ( $the_query->have_posts() ) :
+			$the_query->the_post();?>
+		        <div class="row">
+					<div class="small-12 columns workshop">
+				        <h3><a href="<?php the_permalink() ?>"><?php the_title() ?><span class="workshop-subtitle"> - <?php the_field('byline') ?></span></a></h3>
+				        <?php the_content(); ?>
+				    </div>
+				</div>
+		<?php 
+		endwhile;
+		wp_reset_postdata();
+		?>
+
+	</div>
+
 
 	<div class="row">
-		<div class="small-12 columns workshop">
-			<h2>Nurture - <span class="workshop-subtitle">Healthy Living</span></h2>
-			<p class="description">
-				Making healthy choices and nourishing the body with the right elements that meet your specific needs. Programs about wellness and health, nourishment, holistic health models, and preventing lifestyle illness.
-			</p>
-			<!-- <dl class="accordion" data-accordion>
-				<dd>
-					<a href="#smartyoga">details</a>
-					<div id="smartyoga" class="content">
-						<h2>Smart Yoga</h2>
-						<p class="description">
-							Smart Yoga is a a therapeutic system which views yoga practice as a healing modality, capable of healing the body and the mind.
-						</p>
-						<div class="calendar-icon">
-							<p>12</p>
-						</div>
-						<p class="date">February 12th</p>
-						<p class="time">7pm-8:30pm</p>
-					</div>
-				</dd>
-			</dl> -->
+		<div class="small-12 columns small-centered panel filter-programs">
+			<?php wp_dropdown_categories('show_option_none=Filter Workshops&show_count=0&orderby=name&taxonomy=workshop_category&hierarchical=1&depth=2&hide_if_empty=1'); ?>
+
+			<script type="text/javascript"><!--
+			    var dropdown = document.getElementById("cat");
+			    function onCatChange() {
+					if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+						location.href = "<?php echo get_option('home');
+			?>/?page_id=22&cat="+dropdown.options[dropdown.selectedIndex].value;
+					}
+			    }
+			    dropdown.onchange = onCatChange;
+			--></script>
 		</div>
-	</div>
-<div class="row">
-		<div class="small-12 columns workshop">
-			<h2>Practice - <span class="workshop-subtitle">Mind-Body Mastery</span></h2>
-			<p class="description">
-				Cultivating a mind-body practice towards a plan of progression and mastery. Programs about a variety of mind and body depth practices, conscious movement, and neuroscience/psychology.
-			</p>
-			<!-- <dl class="accordion" data-accordion>
-				<dd>
-					<a href="#smartyoga">details</a>
-					<div id="smartyoga" class="content">
-						<h2>Smart Yoga</h2>
-						<p class="description">
-							Smart Yoga is a a therapeutic system which views yoga practice as a healing modality, capable of healing the body and the mind.
-						</p>
-						<div class="calendar-icon">
-							<p>12</p>
-						</div>
-						<p class="date">February 12th</p>
-						<p class="time">7pm-8:30pm</p>
-					</div>
-				</dd>
-			</dl> -->
-		</div>
-	</div>	
-<div class="row">
-		<div class="small-12 columns workshop">
-			<h2>Connect - <span class="workshop-subtitle">Meaningful Relationships</span></h2>
-			<p class="description">
-				Starting with a positive self-image and dedicating quality time to all the relationships in life (including the one with yourself). Programs about connection and meaningful relationship with self, family, community, and the world.			
-			</p>
-			<!-- <dl class="accordion" data-accordion>
-				<dd>
-					<a href="#smartyoga">details</a>
-					<div id="smartyoga" class="content">
-						<h2>Smart Yoga</h2>
-						<p class="description">
-							Smart Yoga is a a therapeutic system which views yoga practice as a healing modality, capable of healing the body and the mind.
-						</p>
-						<div class="calendar-icon">
-							<p>12</p>
-						</div>
-						<p class="date">February 12th</p>
-						<p class="time">7pm-8:30pm</p>
-					</div>
-				</dd>
-			</dl> -->
-		</div>
-	</div>
-<div class="row">
-		<div class="small-12 columns workshop">
-			<h2>Discover - <span class="workshop-subtitle">Living on Purpose</span></h2>
-			<p class="description">
-				Having a purpose and intent to your life in what you want to create and contribute back with your talents. Programs about discovering or strengthening your internal alignment with your work, giving back to community, self-discovery, and creative expression.			
-			</p>
-			<!-- <dl class="accordion" data-accordion>
-				<dd>
-					<a href="#smartyoga">details</a>
-					<div id="smartyoga" class="content">
-						<h2>Smart Yoga</h2>
-						<p class="description">
-							Smart Yoga is a a therapeutic system which views yoga practice as a healing modality, capable of healing the body and the mind.
-						</p>
-						<div class="calendar-icon">
-							<p>12</p>
-						</div>
-						<p class="date">February 12th</p>
-						<p class="time">7pm-8:30pm</p>
-					</div>
-				</dd>
-			</dl> -->
-		</div>
-	</div>
-		
 	</div>
 
-	<div class="row">      
+	<?php $loop = new WP_Query( array( 'post_type' => 'workshops', 'posts_per_page' => 100, 'meta_key' => 'start_date', 'orderby'	=> 'meta_value_num', 'order'	=> 'ASC' ) ); ?>
+	<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+	
+	<div class="row">
+		<div class="small-12 columns workshop-summary">
+
+			<h3><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+			<p class="class-description">
+				<?php the_field('workshop_description');?> 
+			</p>
+
+			<div class="calendar-icon">
+				<p>
+					<?php 
+
+					$date = DateTime::createFromFormat('Ymd', get_field('start_date'));
+					echo $date->format('d');
+
+					?>
+				</p>
+			</div>
+			
+			<p class="date">
+				<?php 
+
+				$date = DateTime::createFromFormat('Ymd', get_field('start_date'));
+				echo $date->format('l, d F');
+
+				?>				
+			</p>
+
+			<p class="time"><?php the_field('meeting_time');?></p>
+		</div>
 	</div>
+	<?php endwhile; ?>
       
 <?php get_footer(); ?>

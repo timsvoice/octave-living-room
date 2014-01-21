@@ -72,6 +72,7 @@ html, body {
 // Colors
 $white:hsla(100,100%,100%,1);
 $black:hsla(0,0%,0%,1);
+$light-black:hsla(0,0%,0%,0.7);
 $gray:hsla(0, 0%, 97%, 1);
 $dark-gray:hsla(0, 0%, 75%, 1);
 
@@ -99,7 +100,6 @@ $light-text:200;
 
 .top-bar {
 	background-color: inherit;
-	height: 3.3rem;
 
 	.top-bar-section li a:not(.button) {
 		background:none;
@@ -114,15 +114,17 @@ $light-text:200;
 	ul.dropdown {
 
 	}
-	.top-bar-section * a {
+	a {
 		font-weight: $medium-text;
-		color:$black;
-		font-size: 1.5rem;
-		padding-top: 0;
+		color:$light-black;
+		font-size: 1.25rem;
+		padding-right: 1rem;
+		vertical-align: middle;
 	}
 	li {
 		background: none;
-		padding: 0.3rem 0;
+		margin: 0.4rem;
+		
 	}
 	li.divider {
 		border-right: 0.1rem solid $dark-gray;
@@ -133,7 +135,7 @@ $light-text:200;
 		border-top: $light-border;
 	}
 	li.name {
-		height: 3.5rem;
+		
 	}
 	.name h1 a {
 		font-size: 1.25rem;
@@ -146,6 +148,7 @@ $light-text:200;
 		margin-top: -1.35rem;
 		a {
 			color: $black;
+			margin: 0.4rem 0;
 			span {
 				box-shadow: 0 8px 0 2px $black, 0 16px 0 2px $black, 0 24px 0 2px $black;
 				width: 1.25rem;
@@ -261,10 +264,12 @@ $light-text:200;
 	border-bottom: $light-border;
 	background: $gray;
 	margin-bottom: 1.5rem;
-	h2 {
+	
+	h3 a {
 		font-weight: $medium-text;
 		border-bottom: 1px solid $black;
 		display: inline;
+		color: $black;
 	}
 	.workshop-subtitle {
 		font-weight: $light-text;
@@ -275,10 +280,15 @@ $light-text:200;
 }
 
 .class-description, .workshop-description {
+	float: left;
 	p {
 		margin-top: 2rem;
 		padding-bottom: 2rem;
 	}
+}
+
+.class-details, .workshop-details {
+	padding-left: 0rem;
 }
 
 .class, .workshop {
@@ -293,7 +303,7 @@ $light-text:200;
 		font-weight: $medium-text;
 	}
 
-	h2 {
+	h2 a {
 		font-size: 2rem;
 		font-weight: $heavy-text;
 		border: none;
@@ -306,6 +316,16 @@ $light-text:200;
 	.price {
 		font-weight: $heavy-text;
 		font-size: 1.5rem;
+	}
+}
+
+.workshop-takeaways {
+	h2 {
+		font-weight: $medium-text;
+		text-transform: capitalize;
+	}
+	p {
+		margin-top: 0;
 	}
 }
 
@@ -350,11 +370,26 @@ p.date {
 	font-weight: $heavy-text;
 }
 
+.workshops {
+	h1 {
+		display: inline-block;
+	}
+}
+
 p.workshop-duration {
 	color: $dark-gray;
 	font-style: italic;
 	padding: 0;
-	margin: 0.5rem 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1.workshop-byline {
+	@extend p.workshop-duration;
+	font-style: normal;
+	text-transform: capitalize;
+	display: inline-block;
+	font-weight: $light-text;
 }
 
 .program-day {
@@ -378,6 +413,9 @@ p.workshop-duration {
 
 .class-title, .workshop-title {
 	margin: 4rem 0 2rem;
+	h2 {
+		font-weight: $medium-text;
+	}
 }
 
 /* ============================ 
@@ -386,6 +424,38 @@ p.workshop-duration {
 
  @media #{$medium-only} { }
  @media #{$small-only} { }
- @media #{$medium-only} { }
- @media #{$large-up} { }
+ @media #{$medium-up} {
+	.top-bar { 
+	div.title-area {
+		float: right;
+	}
+	li {
+		display: inline-block;
+	}
+}
+  }
+ @media #{$large-up} {
+	.class-details, .workshop-details {
+		padding-top: 0;
+		padding-left: 1rem;	
+	}
+	.class-summary {
+		height: 17rem;
+	}
+	.instructor {
+		padding-top: 1rem;
+		margin-top: 1rem;
+	}
+	.instructor-name {
+		p {
+			margin-bottom: 0rem;
+			font-size: 0.8rem;
+		}
+		a {
+			color: inherit;
+			border-bottom: $thin-border;
+			font-weight: $heavy-text;
+		}
+	}
+  }
  @media #{$xlarge-up} { }

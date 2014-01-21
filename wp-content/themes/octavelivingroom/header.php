@@ -73,6 +73,7 @@
 <body>
     
     <div class="contain-to-grid fixed main-nav">
+        
         <nav class="top-bar" data-topbar>
           <ul class="title-area">
             <li class="name">
@@ -80,14 +81,15 @@
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span></span> </a></li>
           </ul>
-            
+
         <?php wp_nav_menu(
             array(
-                'container'       => 'false',
-                'container_class'    => 'right',
+                'container'       => 'nav',
+                'container_class'    => 'top-bar',
+                'menu_class'    => 'title-area',
+                'depth' => '1'
             )
         ); ?>
-
 
           <!-- <section class="top-bar-section">
             <ul class="right">
