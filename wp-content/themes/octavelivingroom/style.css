@@ -8357,71 +8357,113 @@ table {
   width: 2em;
 }
 
-/* line 245, ../scss/style.scss */
-.classes, .workshops {
+/* line 247, ../scss/style.scss */
+.classes, .workshops, .classes-index, .workshops-index {
   margin-top: 1rem;
 }
-/* line 247, ../scss/style.scss */
-.classes h1, .workshops h1 {
-  font-weight: 400;
+/* line 249, ../scss/style.scss */
+.classes h1, .workshops h1, .classes-index h1, .workshops-index h1 {
+  font-weight: 800;
   text-transform: uppercase;
   margin: 0.3rem 0;
 }
-/* line 252, ../scss/style.scss */
-.classes p, .workshops p {
+/* line 254, ../scss/style.scss */
+.classes a, .workshops a, .classes-index a, .workshops-index a {
+  color: black;
+  border-bottom: 0.1rem solid black;
+}
+/* line 258, ../scss/style.scss */
+.classes p, .workshops p, .classes-index p, .workshops-index p {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 200;
 }
 
-/* line 259, ../scss/style.scss */
+/* line 265, ../scss/style.scss */
+.classes-index, .workshops-index {
+  padding: 2rem 0;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: #f7f7f7;
+}
+/* line 270, ../scss/style.scss */
+.classes-index .button, .workshops-index .button {
+  background-color: #bfbfbf;
+}
+/* line 272, ../scss/style.scss */
+.classes-index .button p, .workshops-index .button p {
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 283, ../scss/style.scss */
 .workshops {
   margin-bottom: 1rem;
 }
 
-/* line 263, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
+.class-details, .workshop-details {
+  padding-top: 1rem;
+}
+
+/* line 290, ../scss/style.scss */
 .class-summary, .class, .workshop, .workshop-summary {
   border-bottom: 0.1rem solid #f7f7f7;
   background: #f7f7f7;
   margin-bottom: 1.5rem;
 }
-/* line 268, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
+.class-summary .class-details, .class .class-details, .workshop .class-details, .class-summary .workshop-details, .class .workshop-details, .workshop .workshop-details, .workshop-summary .class-details, .workshop-summary .workshop-details {
+  padding-top: 1rem;
+}
+/* line 299, ../scss/style.scss */
 .class-summary h3 a, .class h3 a, .workshop h3 a, .workshop-summary h3 a {
   font-weight: 400;
   border-bottom: 1px solid black;
   display: inline;
   color: black;
 }
-/* line 274, ../scss/style.scss */
+/* line 305, ../scss/style.scss */
 .class-summary .workshop-subtitle, .class .workshop-subtitle, .workshop .workshop-subtitle, .workshop-summary .workshop-subtitle {
   font-weight: 200;
 }
-/* line 277, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 .class-summary .description, .class .description, .workshop .description, .workshop-summary .description {
   margin-top: 1rem;
 }
 
-/* line 282, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
+.workshop-intro h3 a {
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  display: inline;
+  color: black;
+}
+/* line 320, ../scss/style.scss */
+.workshop-intro .workshop-subtitle {
+  font-weight: 200;
+}
+
+/* line 325, ../scss/style.scss */
 .class-description, .workshop-description {
   float: left;
 }
-/* line 284, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 .class-description p, .workshop-description p {
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
 
-/* line 290, ../scss/style.scss */
-.class-details, .workshop-details {
-  padding-left: 0rem;
-}
-
-/* line 294, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .class, .workshop {
   background: inherit;
   border: none;
 }
-/* line 298, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 .class h3, .workshop h3 {
   padding: 0;
   margin: 0;
@@ -8429,58 +8471,64 @@ table {
   color: #bfbfbf;
   font-weight: 400;
 }
-/* line 306, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 .class h2 a, .workshop h2 a {
   font-size: 2rem;
   font-weight: 800;
   border: none;
 }
 
-/* line 313, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 .class-details, .workshop-details {
   background: #f7f7f7;
-  padding-top: 1rem;
 }
-/* line 316, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .class-details .price, .workshop-details .price {
   font-weight: 800;
   font-size: 1.5rem;
 }
 
-/* line 323, ../scss/style.scss */
-.workshop-takeaways h2 {
-  font-weight: 400;
-  text-transform: capitalize;
+/* line 361, ../scss/style.scss */
+.workshop-takeaways h4 {
+  font-weight: 800;
+  text-transform: uppercase;
 }
-/* line 327, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 .workshop-takeaways p {
   margin-top: 0;
 }
 
-/* line 333, ../scss/style.scss */
+/* line 371, ../scss/style.scss */
 .instructor h2 {
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 338, ../scss/style.scss */
+/* line 376, ../scss/style.scss */
 .instructor .instructor-name h4 {
   font-weight: 400;
   border-bottom: 0.1rem solid black;
   padding-bottom: 0;
   margin-bottom: 0;
   display: inline-block;
+  margin-top: 0rem;
 }
-/* line 345, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .instructor .instructor-name p {
   font-weight: 200;
 }
-/* line 349, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
+.instructor .instructor-name a {
+  color: inherit;
+  border-bottom: 0.1rem solid black;
+  font-weight: 800;
+}
+/* line 393, ../scss/style.scss */
 .instructor .instructor-bio {
   display: inline-block;
   margin-top: 0.5rem;
 }
 
-/* line 355, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 .accordion a {
   text-align: center;
   text-transform: uppercase;
@@ -8489,23 +8537,18 @@ table {
 /* ============================ 
 	7 Typography
    ============================ */
-/* line 364, ../scss/style.scss */
+/* line 408, ../scss/style.scss */
 .time, .date {
   font-size: 0.85rem;
 }
 
-/* line 368, ../scss/style.scss */
+/* line 412, ../scss/style.scss */
 p.date {
   margin-bottom: 0;
   font-weight: 800;
 }
 
-/* line 374, ../scss/style.scss */
-.workshops h1 {
-  display: inline-block;
-}
-
-/* line 379, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 p.workshop-duration, h1.workshop-byline {
   color: #bfbfbf;
   font-style: italic;
@@ -8514,7 +8557,7 @@ p.workshop-duration, h1.workshop-byline {
   text-transform: uppercase;
 }
 
-/* line 387, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 h1.workshop-byline {
   font-style: normal;
   text-transform: capitalize;
@@ -8522,72 +8565,98 @@ h1.workshop-byline {
   font-weight: 200;
 }
 
-/* line 395, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 .program-day {
   border-bottom: 0.15rem solid black;
   margin-bottom: 2rem;
 }
-/* line 398, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 .program-day h2 {
   font-weight: 400;
 }
 
-/* line 404, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 .workshop-takeaways h3 {
   font-weight: 400;
   text-transform: capitalize;
 }
-/* line 408, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 .workshop-takeaways li {
   list-style-type: disc;
 }
 
-/* line 414, ../scss/style.scss */
+/* line 457, ../scss/style.scss */
 .class-title, .workshop-title {
-  margin: 4rem 0 2rem;
+  margin: 1rem 0 2rem;
 }
-/* line 416, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 .class-title h2, .workshop-title h2 {
-  font-weight: 400;
+  font-weight: 800;
+  margin: 0;
+}
+/* line 463, ../scss/style.scss */
+.class-title h3, .workshop-title h3 {
+  color: #bfbfbf;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 /* ============================ 
 	8 Media Queries
    ============================ */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 475, ../scss/style.scss */
+  .class-details, .workshop-details {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 481, ../scss/style.scss */
+  .class-details, .workshop-details {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 429, ../scss/style.scss */
+  /* line 488, ../scss/style.scss */
   .top-bar div.title-area {
     float: right;
   }
-  /* line 432, ../scss/style.scss */
+  /* line 491, ../scss/style.scss */
   .top-bar li {
     display: inline-block;
   }
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 438, ../scss/style.scss */
-  .class-details, .workshop-details {
-    padding-top: 0;
-    padding-left: 1rem;
-  }
 
-  /* line 442, ../scss/style.scss */
-  .class-summary, .class, .workshop {
+  /* line 496, ../scss/style.scss */
+  .class-summary, .class, .workshop, .workshop-summary {
     height: 17rem;
   }
 
-  /* line 445, ../scss/style.scss */
-  .instructor {
+  /* line 501, ../scss/style.scss */
+  .workshop-description p, .class-description p {
+    margin-top: 0rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 507, ../scss/style.scss */
+  .class-details, .workshop-details {
+    padding-left: 1rem;
     padding-top: 1rem;
-    margin-top: 1rem;
   }
 
-  /* line 450, ../scss/style.scss */
+  /* line 512, ../scss/style.scss */
+  .workshop-description p {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* line 521, ../scss/style.scss */
   .instructor-name p {
     margin-bottom: 0rem;
     font-size: 0.8rem;
   }
-  /* line 454, ../scss/style.scss */
+  /* line 525, ../scss/style.scss */
   .instructor-name a {
     color: inherit;
     border-bottom: 0.1rem solid black;

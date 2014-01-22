@@ -242,12 +242,18 @@ $light-text:200;
 	width: 2em;
 }
 
-.classes, .workshops {
+
+
+.classes, .workshops, .classes-index, .workshops-index {
 	margin-top: 1rem;
 	h1 {
-		font-weight: $medium-text;
+		font-weight: $heavy-text;
 		text-transform: uppercase;
 		margin: 0.3rem 0;
+	}
+	a {
+		color: $black;
+		border-bottom: $thin-border;
 	}
 	p {
 		font-size: 1.5rem;
@@ -256,14 +262,39 @@ $light-text:200;
 	}
 }
 
+.classes-index, .workshops-index {
+	padding: 2rem 0;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	background-color: $gray;
+	.button {
+		background-color: $dark-gray;
+		p {
+			color: $gray;
+			text-transform: uppercase;
+			font-weight: $heavy-text;
+			font-size: 1rem;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
 .workshops {
 	margin-bottom: 1rem;
+}
+.class-details, .workshop-details {
+	padding-top: 1rem;
 }
 
 .class-summary, .workshop-summary {
 	border-bottom: $light-border;
 	background: $gray;
 	margin-bottom: 1.5rem;
+
+	.class-details, .workshop-details {
+	padding-top: 1rem;
+	}
 	
 	h3 a {
 		font-weight: $medium-text;
@@ -279,16 +310,24 @@ $light-text:200;
 	}
 }
 
+.workshop-intro {
+	h3 a {
+		font-weight: $medium-text;
+		border-bottom: 1px solid $black;
+		display: inline;
+		color: $black;
+	}
+	.workshop-subtitle {
+		font-weight: $light-text;
+	}
+}
+
 .class-description, .workshop-description {
 	float: left;
 	p {
 		margin-top: 2rem;
 		padding-bottom: 2rem;
 	}
-}
-
-.class-details, .workshop-details {
-	padding-left: 0rem;
 }
 
 .class, .workshop {
@@ -312,7 +351,6 @@ $light-text:200;
 
 .class-details, .workshop-details {
 	background: $gray;
-	padding-top: 1rem;
 	.price {
 		font-weight: $heavy-text;
 		font-size: 1.5rem;
@@ -320,9 +358,9 @@ $light-text:200;
 }
 
 .workshop-takeaways {
-	h2 {
-		font-weight: $medium-text;
-		text-transform: capitalize;
+	h4 {
+		font-weight: $heavy-text;
+		text-transform: uppercase;
 	}
 	p {
 		margin-top: 0;
@@ -341,9 +379,15 @@ $light-text:200;
 			padding-bottom: 0;
 			margin-bottom: 0;
 			display: inline-block;
+			margin-top: 0rem;
 		}
 		p {
 			font-weight: $light-text;
+		}
+		a {
+			color: inherit;
+			border-bottom: $thin-border;
+			font-weight: $heavy-text;
 		}
 	}
 	.instructor-bio {
@@ -372,7 +416,6 @@ p.date {
 
 .workshops {
 	h1 {
-		display: inline-block;
 	}
 }
 
@@ -412,9 +455,15 @@ h1.workshop-byline {
 }
 
 .class-title, .workshop-title {
-	margin: 4rem 0 2rem;
+	margin: 1rem 0 2rem;
 	h2 {
-		font-weight: $medium-text;
+		font-weight: $heavy-text;
+		margin: 0;
+	}
+	h3 {
+		color: $dark-gray;
+		text-transform: uppercase;
+		margin: 0;
 	}
 }
 
@@ -422,29 +471,51 @@ h1.workshop-byline {
 	8 Media Queries
    ============================ */
 
- @media #{$medium-only} { }
- @media #{$small-only} { }
+ @media #{$medium-only} {
+	.class-details, .workshop-details {
+		padding-left: 1rem;
+		padding-top: 1rem;	
+	}
+  }
+ @media #{$small-only} { 
+	.class-details, .workshop-details {
+		padding-left: 1rem;
+		padding-top: 1rem;	
+	}
+ }
  @media #{$medium-up} {
 	.top-bar { 
-	div.title-area {
-		float: right;
+		div.title-area {
+			float: right;
+		}
+		li {
+			display: inline-block;
+		}
 	}
-	li {
-		display: inline-block;
+	
+	.class-summary, .workshop-summary {
+		height: 17rem;
 	}
-}
+
+	.workshop-description, .class-description {
+		p {
+			margin-top: 0rem;
+		}
+	}
   }
  @media #{$large-up} {
 	.class-details, .workshop-details {
-		padding-top: 0;
-		padding-left: 1rem;	
+		padding-left: 1rem;
+		padding-top: 1rem;	
 	}
-	.class-summary {
-		height: 17rem;
+	.workshop-description {
+		p {
+			margin-top: 0;
+			padding-bottom: 0;
+		}
 	}
 	.instructor {
-		padding-top: 1rem;
-		margin-top: 1rem;
+
 	}
 	.instructor-name {
 		p {
