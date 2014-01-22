@@ -1,0 +1,532 @@
+/*!
+Theme Name: Octave Living room
+Theme URI: http://www.timothyvoice.com/octave_living_room
+Description: Prototype theme for Octave Living Room
+Author: Timothy Voice
+Author URI: http://www.timothyvoice.com
+Version: 1.0
+Tags: Foundation, Responsive, Classes, Events, Health
+*/
+
+/* Table of Contents
+* ============================= 
+*	0 Global
+*	1 Zurb Foundation Imports
+*	2 Variables
+*	3 Navigation
+*	4 UI
+*	5 Structure
+*	6 Content
+*	7 Typography
+*	8 Media Queries
+* =============================  
+*/
+
+/* ============================ 
+	0 Global
+   ============================ */
+
+@import "compass";
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+form {
+	padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.alpha {
+	padding-left:0 !important;
+}
+
+.beta {
+	padding-right:0 !important;
+}
+
+/* ============================ 
+	1 Zurb Foundation Imports 
+   ============================ */
+
+@import "settings";
+@import "foundation";
+@import "normalize";
+
+/* ============================ 
+	2 Variables 
+   ============================ */
+
+// Colors
+$white:hsla(100,100%,100%,1);
+$black:hsla(0,0%,0%,1);
+$light-black:hsla(0,0%,0%,0.7);
+$gray:hsla(0, 0%, 97%, 1);
+$dark-gray:hsla(0, 0%, 75%, 1);
+
+// Borders and background
+$dark-border:0.2rem solid $dark-gray;
+$black-border:0.15rem solid $black;
+$light-border:0.1rem solid $gray;
+$thin-border:0.1rem solid $black;
+
+// Typography 
+$heavy-text:800;
+$medium-text:400;
+$light-text:200;
+
+/* ============================ 
+	3 Navigation 
+   ============================ */
+
+.main-nav {
+	background-color:$gray;
+	border-bottom:$dark-border;
+	margin:0;
+	padding:0;
+}
+
+.top-bar {
+	background-color: inherit;
+
+	.top-bar-section li a:not(.button) {
+		background:none;
+	}
+	li a:not(.button):hover {
+		background-color: none;
+		color: $black;
+	}
+	li.branding-mark a:not(.button):hover {
+		background: none;
+	}
+	ul.dropdown {
+
+	}
+	a {
+		font-weight: $medium-text;
+		color:$light-black;
+		font-size: 1.25rem;
+		padding-right: 1rem;
+		vertical-align: middle;
+	}
+	li {
+		background: none;
+		margin: 0.4rem;
+		
+	}
+	li.divider {
+		border-right: 0.1rem solid $dark-gray;
+	}
+	.top-bar-section ul {
+		background: inherit;
+		text-align: center;
+		border-top: $light-border;
+	}
+	li.name {
+		
+	}
+	.name h1 a {
+		font-size: 1.25rem;
+		color: $black;
+		width: 100%;
+		font-weight: $heavy-text;
+		text-transform: uppercase;
+	}
+	.toggle-topbar.menu-icon {
+		margin-top: -1.35rem;
+		a {
+			color: $black;
+			margin: 0.4rem 0;
+			span {
+				box-shadow: 0 8px 0 2px $black, 0 16px 0 2px $black, 0 24px 0 2px $black;
+				width: 1.25rem;
+			}
+		}
+	}
+}
+
+.top-bar.expanded .title-area {
+	background: none;
+}
+
+/* ============================ 
+	4 UI
+   ============================ */
+
+.calendar-icon {
+	float: left;
+	display: inline-block;
+	padding-top: 0.2rem;
+	margin-right: 1rem;
+	height: 2.5rem;
+	width: 2rem;
+	border: 2px solid black;
+	border-top: 10px solid black;
+	background: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+	vertical-align: middle;
+	p {
+		font-weight: $heavy-text;
+	}
+}
+
+.calendar-icon-workshops {
+	@extend .calendar-icon;
+	width: auto;
+	padding: 0 0.5rem;
+}
+
+.button {
+	background: $gray;
+	color: $black;
+}
+
+.button.dark {
+	@extend .button;
+	text-align: center;
+	background: $dark-gray;
+	font-weight: $heavy-text;
+	text-transform: uppercase;
+	color: $white;
+}
+
+.button.plain {
+		font-weight: $light-text;
+		text-transform: uppercase;
+}
+
+.filter-programs {
+	border: $light-border;
+	h3 {
+		display: inline-block;
+		font-weight: $medium-text;
+	}
+}
+
+.dropdown-arrow {
+	width: 0; 
+	height: 0;
+	margin-left: 1rem; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid $dark-gray;
+	display: inline-block;
+	float: right;
+	margin-top: 0.5em;
+}
+
+/* ============================ 
+	5 Structure
+   ============================ */
+
+/* ============================ 
+	6 Content
+   ============================ */
+
+.branding-mark {
+	height: 2em;
+	width: 2em;
+}
+
+
+
+.classes, .workshops, .classes-index, .workshops-index {
+	margin-top: 1rem;
+	h1 {
+		font-weight: $heavy-text;
+		text-transform: uppercase;
+		margin: 0.3rem 0;
+	}
+	a {
+		color: $black;
+		border-bottom: $thin-border;
+	}
+	p {
+		font-size: 1.5rem;
+		line-height: 2rem;
+		font-weight: $light-text;
+	}
+}
+
+.classes-index, .workshops-index {
+	padding: 2rem 0;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	background-color: $gray;
+	.button {
+		background-color: $dark-gray;
+		p {
+			color: $gray;
+			text-transform: uppercase;
+			font-weight: $heavy-text;
+			font-size: 1rem;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+.workshops {
+	margin-bottom: 1rem;
+}
+.class-details, .workshop-details {
+	padding-top: 1rem;
+}
+
+.class-summary, .workshop-summary {
+	border-bottom: $light-border;
+	background: $gray;
+	margin-bottom: 1.5rem;
+
+	.class-details, .workshop-details {
+	padding-top: 1rem;
+	}
+	
+	h3 a {
+		font-weight: $medium-text;
+		border-bottom: 1px solid $black;
+		display: inline;
+		color: $black;
+	}
+	.workshop-subtitle {
+		font-weight: $light-text;
+	}
+	.description {
+		margin-top: 1rem;
+	}
+}
+
+.workshop-intro {
+	h3 a {
+		font-weight: $medium-text;
+		border-bottom: 1px solid $black;
+		display: inline;
+		color: $black;
+	}
+	.workshop-subtitle {
+		font-weight: $light-text;
+	}
+}
+
+.class-description, .workshop-description {
+	float: left;
+	p {
+		margin-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.class, .workshop {
+	@extend .class-summary;
+	background: inherit;
+	border: none;
+	h3 {
+		padding: 0;
+		margin: 0;
+		text-transform: capitalize;
+		color: $dark-gray;
+		font-weight: $medium-text;
+	}
+
+	h2 a {
+		font-size: 2rem;
+		font-weight: $heavy-text;
+		border: none;
+	}
+}
+
+.class-details, .workshop-details {
+	background: $gray;
+	.price {
+		font-weight: $heavy-text;
+		font-size: 1.5rem;
+	}
+}
+
+.workshop-takeaways {
+	h4 {
+		font-weight: $heavy-text;
+		text-transform: uppercase;
+	}
+	p {
+		margin-top: 0;
+	}
+}
+
+.instructor {
+	h2 {
+		font-weight: $medium-text;
+		text-transform: capitalize;
+	}
+	.instructor-name {
+		h4 {
+			font-weight: $medium-text;
+			border-bottom: $thin-border;
+			padding-bottom: 0;
+			margin-bottom: 0;
+			display: inline-block;
+			margin-top: 0rem;
+		}
+		p {
+			font-weight: $light-text;
+		}
+		a {
+			color: inherit;
+			border-bottom: $thin-border;
+			font-weight: $heavy-text;
+		}
+	}
+	.instructor-bio {
+		display: inline-block;
+		margin-top: 0.5rem;
+	}
+}
+
+.accordion a {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ============================ 
+	7 Typography
+   ============================ */
+
+.time, .date {
+	font-size: 0.85rem;
+}
+
+p.date {
+	margin-bottom: 0;
+	font-weight: $heavy-text;
+}
+
+.workshops {
+	h1 {
+	}
+}
+
+p.workshop-duration {
+	color: $dark-gray;
+	font-style: italic;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1.workshop-byline {
+	@extend p.workshop-duration;
+	font-style: normal;
+	text-transform: capitalize;
+	display: inline-block;
+	font-weight: $light-text;
+}
+
+.program-day {
+	border-bottom: $black-border;
+	margin-bottom: 2rem;
+	h2 {
+		font-weight: $medium-text;
+	}
+}
+
+.workshop-takeaways {
+	h3 {
+		font-weight: $medium-text;
+		text-transform: capitalize;
+	}
+	li {
+		list-style-type: disc;
+	}
+	
+}
+
+.class-title, .workshop-title {
+	margin: 1rem 0 2rem;
+	h2 {
+		font-weight: $heavy-text;
+		margin: 0;
+	}
+	h3 {
+		color: $dark-gray;
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
+
+/* ============================ 
+	8 Media Queries
+   ============================ */
+
+ @media #{$medium-only} {
+	.class-details, .workshop-details {
+		padding-left: 1rem;
+		padding-top: 1rem;	
+	}
+  }
+ @media #{$small-only} { 
+	.class-details, .workshop-details {
+		padding-left: 1rem;
+		padding-top: 1rem;	
+	}
+ }
+ @media #{$medium-up} {
+	.top-bar { 
+		div.title-area {
+			float: right;
+		}
+		li {
+			display: inline-block;
+		}
+	}
+	
+	.class-summary, .workshop-summary {
+		height: 17rem;
+	}
+
+	.workshop-description, .class-description {
+		p {
+			margin-top: 0rem;
+		}
+	}
+  }
+ @media #{$large-up} {
+	.class-details, .workshop-details {
+		padding-left: 1rem;
+		padding-top: 1rem;	
+	}
+	.workshop-description {
+		p {
+			margin-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	.instructor {
+
+	}
+	.instructor-name {
+		p {
+			margin-bottom: 0rem;
+			font-size: 0.8rem;
+		}
+		a {
+			color: inherit;
+			border-bottom: $thin-border;
+			font-weight: $heavy-text;
+		}
+	}
+  }
+ @media #{$xlarge-up} { }
